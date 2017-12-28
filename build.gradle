@@ -15,6 +15,20 @@ buildscript {
     }
 }
 
+ext.supportLibVersion = '26.1.0'
+ext.archVersion = '1.0.0'
+ext.retrofitVersion = '2.3.0'
+ext.okhttpVersion = '3.9.1'
+ext.daggerVersion = '2.14.1'
+ext.constraintLayoutVersion = "1.0.2"
+ext.mockitoVersion = "2.7.19"
+ext.timberVersion = "4.6.0"
+ext.butterknifeVersion = "8.8.1"
+ext.espressoVersion = "3.0.1"
+ext.jUnitVersion = "4.12"
+ext.testRunnerVersion = "1.0.1"
+ext.parcelerVersion = "1.0.1"
+
 allprojects {
     repositories {
         google()
